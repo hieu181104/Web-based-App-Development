@@ -73,3 +73,10 @@ Dựa trên DLL đã tạo, em đã thiết kế một Windows Form đơn giản
 - Tạo project mới tương tự như hai bước trên, đặt tên là LoveCompatibilityWinForm
 - Nháy chuột phải vào project vừa tạo -> Add -> Reference -> Project -> Love_Compatibility (Project 1) -> OK.
 #### Thiết kế giao diện:
+<img width="3071" height="1831" alt="Screenshot 2025-09-28 012840" src="https://github.com/user-attachments/assets/aeb2db7c-a00a-43a4-b357-26b15d25ed5d" />
+#### Build & Run:
+<img width="3071" height="1830" alt="Screenshot 2025-09-28 012801" src="https://github.com/user-attachments/assets/1b26446f-92b9-4488-a5c5-95a650d766ae" />
+<img width="3071" height="1825" alt="Screenshot 2025-09-28 013123" src="https://github.com/user-attachments/assets/8b7ee1ee-ba22-4f79-957e-2c4fd6554cda" />
+### Bước 5: Tạo Web
+
+
