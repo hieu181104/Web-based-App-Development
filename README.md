@@ -1,7 +1,7 @@
-# Web-based-App-Development
-## Thông tin cá nhân
+# WEB - BASED APP DEVELOPMENT
+## THÔNG TIN CÁ NHÂN
 #### Họ và tên: Nguyễn Trung Hiếu
 #### Mã sinh viên: K225480106019
 #### Lớp: K58KTP
-## Bài tập về nhà 01
+## BÀI TẬP VỀ NHÀ 01
 ### PROJECT 1:
