@@ -23,7 +23,7 @@
 - File index.html có sử dụng html css js để xây dựng giao diện nhập được các input cho bài toán, dùng mã js để tiền xử lý dữ liệu, js để gửi lên backend.
 - Backend là api.aspx, trong code của api.aspx.cs thì lấy được các input mà js gửi lên, rồi sử dụng được DLL đa năng trên. Kết quả gửi lại json cho client, js phía client sẽ nhận được json này hậu xử lý để thay đổi giao diện theo dữ liệu nhận được.
 - Project web này biên dịch ra DLL, phải kết hợp với IIS mới chạy được.
-## BÀI TOÁN: Trang Web "Độ tương thích tình yêu" (LOVE COMPATIBILITY) giữa hai tên người.
+## BÀI TOÁN: Trang Web "Độ tương thích tình yêu" (LOVE COMPATIBILITY) bằng chỉ số phần trăm (0-100) giữa hai tên người.
 ## CÁC BƯỚC THỰC HIỆN SOLUTION:
 ### Bước 1: Tạo Solution
 - Mở Visual Studio 2022
@@ -36,5 +36,11 @@
 - Trong cửa sổ Solution Explorer, click chuột phải vào tên solution vừa tạo, chọn Add -> New Project.
 - Tìm kiếm: Class Library (.NET Framework) rồi chọn Next
 - Đặt tên cho Project: Love_Compatibility
-- Ở mục Framework chọn .NET Framework 2.0
-- 
+- Ở mục Framework chọn .NET Framework 2.0 -> Create
+<img width="3071" height="1825" alt="Screenshot 2025-09-27 233521" src="https://github.com/user-attachments/assets/46168f87-f4e0-430b-8941-0154bab5d667" />
+
+DLL được tạo ở bước này sẽ được dùng cho Console App, WinForm và Web.
+#### Build DLL
+- Nháy chuột phải vào project -> Build (hoặc Ctrl+Shift+B).
+- Kết quả: Trong folder bin\Debug (hoặc Release), sẽ có file Love_Compatibility.dll. Đây là DLL độc lập, copy dùng ở các project khác.
+<img width="3063" height="1829" alt="Screenshot 2025-09-27 235518" src="https://github.com/user-attachments/assets/36a2eac6-d0c4-418f-8856-d1df64d081a6" />
