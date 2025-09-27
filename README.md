@@ -33,3 +33,8 @@
 <img width="2020" height="1342" alt="Screenshot 2025-09-27 230331" src="https://github.com/user-attachments/assets/5b542a78-9ef5-451f-a486-ba492574dd2d" />
 
 ### Bước 2: Tạo Class Library
+- Trong cửa sổ Solution Explorer, click chuột phải vào tên solution vừa tạo, chọn Add -> New Project.
+- Tìm kiếm: Class Library (.NET Framework) rồi chọn Next
+- Đặt tên cho Project: Love_Compatibility
+- Ở mục Framework chọn .NET Framework 2.0
+- 
