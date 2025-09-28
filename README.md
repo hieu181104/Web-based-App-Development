@@ -83,5 +83,33 @@ Dựa trên DLL đã tạo, em đã thiết kế một Windows Form đơn giản
 - Tạo project chọn Add -> New Project -> ASP.NET Web Application (.NET Framework) -> Đặt tên là LoveCompatibilityWeb
 - Chọn .NET Framework 2.0 -> create
 - Trong template, chọn Empty Web Application (không dùng MVC) -> OK.
+<img width="2055" height="1380" alt="Screenshot 2025-09-28 084517" src="https://github.com/user-attachments/assets/d8f46273-6e0a-424e-b0c7-5c181637d597" />
 
+- Sau khi tạo xong, thêm reference đến dll.
+#### Tạo file index.html
+- Nháy chuột phải Project -> Add -> New Item -> HTML Page -> Đặt tên index.html
+- Tạo file index.html với HTML + CSS để hiển thị giao diện, và JavaScript để xử lý sự kiện.
+#### Tạo file api.aspx
+- Nháy chuột phải Project -> Add -> New Item -> WebForm -> Đặt tên api.aspx
+- Mở api.aspx, để trống nội dung markup, thêm code cho file.
+#### Cấu hình IIS và domain
+- Mở Control Panel -> Programs -> Turn Windows features on or off -> Tick Internet Information Services -> OK.
+- Mở IIS Manager -> Add Website -> Đặt:
+  - Sitename: LoveCompatibilityWeb
+  - Physical path: thư mục LoveCompatibilityWeb.
+  - Binding: type: http ; IP Address: All Unassigned ; Port: 80.
+  - Hostname: love.compatibility.local -> OK.
+<img width="1168" height="1336" alt="image" src="https://github.com/user-attachments/assets/7580deaa-93f0-4341-a92f-0270544cb4c9" />
 
+- Thêm domain vào file hosts:
+  - Notepad -> Run as Administrator
+  - Open file C:\Windows\System32\drivers\etc\hosts
+  - Thêm dòng 127.0.0.1 love.compatibility.local
+<img width="1804" height="1019" alt="image" src="https://github.com/user-attachments/assets/0444942a-e220-4b28-8bdb-dc6e90def21d" />
+
+- Cấu hình Application Pool:
+<img width="2283" height="1303" alt="image" src="https://github.com/user-attachments/assets/a56cc44e-78cd-41e3-aa06-16062608cd29" />
+
+- Đảm bảo trong thư mục LoveCompatibilityWeb\bin phải có file dll của Project 1 và Project 4.
+- Mở trình duyệt gõ: htttp://love.compatibility.local để chạy web
+- 
