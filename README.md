@@ -95,21 +95,20 @@ Dựa trên DLL đã tạo, em đã thiết kế một Windows Form đơn giản
 #### Cấu hình IIS và domain
 - Mở Control Panel -> Programs -> Turn Windows features on or off -> Tick Internet Information Services -> OK.
 - Mở IIS Manager -> Add Website -> Đặt:
-  - Sitename: LoveCompatibilityWeb
+  - Sitename: LoveWeb
   - Physical path: thư mục LoveCompatibilityWeb.
   - Binding: type: http ; IP Address: All Unassigned ; Port: 80.
-  - Hostname: love.compatibility.local -> OK.
-<img width="1168" height="1336" alt="image" src="https://github.com/user-attachments/assets/7580deaa-93f0-4341-a92f-0270544cb4c9" />
+  - Hostname: love.local -> OK.
+<img width="1165" height="1336" alt="Screenshot 2025-09-28 110243" src="https://github.com/user-attachments/assets/75b9cc25-9081-4c03-9868-5542d0b855b8" />
 
 - Thêm domain vào file hosts:
   - Notepad -> Run as Administrator
   - Open file C:\Windows\System32\drivers\etc\hosts
-  - Thêm dòng 127.0.0.1 love.compatibility.local
-<img width="1804" height="1019" alt="image" src="https://github.com/user-attachments/assets/0444942a-e220-4b28-8bdb-dc6e90def21d" />
+  - Thêm dòng 127.0.0.1 love.local
+<img width="1808" height="1019" alt="Screenshot 2025-09-28 115703" src="https://github.com/user-attachments/assets/3cb8db24-121f-4f9e-bc98-44393b94d907" />
 
 - Cấu hình Application Pool:
-<img width="2283" height="1303" alt="image" src="https://github.com/user-attachments/assets/a56cc44e-78cd-41e3-aa06-16062608cd29" />
+<img width="2261" height="1276" alt="Screenshot 2025-09-28 115911" src="https://github.com/user-attachments/assets/2ca2e1ba-4122-4428-ae2e-641aa7c34ade" />
 
 - Đảm bảo trong thư mục LoveCompatibilityWeb\bin phải có file dll của Project 1 và Project 4.
-- Mở trình duyệt gõ: htttp://love.compatibility.local để chạy web
-- 
+- Mở trình duyệt gõ: http://love.local để chạy web.
