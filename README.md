@@ -112,4 +112,5 @@ Dựa trên DLL đã tạo, em đã thiết kế một Windows Form đơn giản
 
 - Đảm bảo trong thư mục LoveCompatibilityWeb\bin phải có file dll của Project 1 và Project 4.
 - Mở trình duyệt gõ: http://love.local để chạy web.
-<img width="2515" height="1675" alt="image" src="https://github.com/user-attachments/assets/87da09cc-dbfe-4346-babc-0f4a244ea491" />
+<img width="3068" height="1828" alt="Screenshot 2025-09-28 161027" src="https://github.com/user-attachments/assets/4d220641-b880-4a5e-8944-020a12b7c7f4" />
+<img width="3071" height="1820" alt="Screenshot 2025-09-28 161159" src="https://github.com/user-attachments/assets/a37566a9-4a38-446f-8114-f99dacb1f38e" />
